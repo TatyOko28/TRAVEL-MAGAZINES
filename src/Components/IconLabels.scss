@@ -1,0 +1,33 @@
+.icon-labels {
+    display: flex;
+    justify-content: space-around; // Spread out the icons evenly
+    align-items: center;
+    text-align: center;
+    padding: 20px 0; // Provide some padding around the component
+  }
+  
+  .icon-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .icon {
+      font-size: 1.5rem; // Reduce the icon size to make the circle appear larger
+      color: #333; // Adjust the icon color to match your design
+      background-color: #f0e5d8; // Soft gold background, adjust color as needed
+      border-radius: 50%; // Makes the background circle
+      width: 3rem; // Increase width for a larger circle
+      height: 3rem; // Increase height to match width ensuring circle shape
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px; // Space between the icon and the label text
+      padding: 10px; // Add padding to reduce icon visual size within the circle
+    }
+  
+    p {
+      font-size: 16px; // Adjust font size for the label
+      color: #333; // Text color
+    }
+  }
+  
